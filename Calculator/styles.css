@@ -1,0 +1,21 @@
+html{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.container{
+display: grid;
+justify-content:center;
+text-align: center;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    background-color:#25db72;
+    font-weight: bold; 
+    color: #ecf0f1;
+}
+#answer{
+    height: 50px;
+    width: 250px;
+}
