@@ -1,0 +1,58 @@
+body {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#seatingArrangement {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+#screen{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.seat:hover {
+    background-color: #f0f0f0;
+}
+
+.seat.selected {
+    background-color: #28a745;
+    color: white;
+}
